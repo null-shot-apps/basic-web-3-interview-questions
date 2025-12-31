@@ -28,6 +28,106 @@ const defaultQuestions = [
     id: 5,
     question: "Explain the concept of decentralization.",
     category: "Fundamentals"
+  },
+  {
+    id: 6,
+    question: "What is the difference between a token and a coin?",
+    category: "Fundamentals"
+  },
+  {
+    id: 7,
+    question: "Explain what ERC-20 tokens are and their use cases.",
+    category: "Smart Contracts"
+  },
+  {
+    id: 8,
+    question: "What is the purpose of ERC-721 (NFT) standard?",
+    category: "NFTs"
+  },
+  {
+    id: 9,
+    question: "What is a consensus mechanism? Name a few examples.",
+    category: "Fundamentals"
+  },
+  {
+    id: 10,
+    question: "Explain Proof of Work (PoW) vs Proof of Stake (PoS).",
+    category: "Fundamentals"
+  },
+  {
+    id: 11,
+    question: "What is a wallet in Web3? Explain hot vs cold wallets.",
+    category: "Fundamentals"
+  },
+  {
+    id: 12,
+    question: "What are private keys and public keys?",
+    category: "Security"
+  },
+  {
+    id: 13,
+    question: "What is DeFi and how does it differ from traditional finance?",
+    category: "DeFi"
+  },
+  {
+    id: 14,
+    question: "Explain what a liquidity pool is.",
+    category: "DeFi"
+  },
+  {
+    id: 15,
+    question: "What is yield farming?",
+    category: "DeFi"
+  },
+  {
+    id: 16,
+    question: "What are stablecoins and why are they important?",
+    category: "DeFi"
+  },
+  {
+    id: 17,
+    question: "Explain what a DAO (Decentralized Autonomous Organization) is.",
+    category: "Fundamentals"
+  },
+  {
+    id: 18,
+    question: "What is the difference between Layer 1 and Layer 2 solutions?",
+    category: "Fundamentals"
+  },
+  {
+    id: 19,
+    question: "What are common smart contract vulnerabilities?",
+    category: "Security"
+  },
+  {
+    id: 20,
+    question: "What is a reentrancy attack?",
+    category: "Security"
+  },
+  {
+    id: 21,
+    question: "Explain what IPFS is and its role in Web3.",
+    category: "Fundamentals"
+  },
+  {
+    id: 22,
+    question: "What is the purpose of oracles in blockchain?",
+    category: "Smart Contracts"
+  },
+  {
+    id: 23,
+    question: "What are the main differences between Ethereum and Solana?",
+    category: "Fundamentals"
+  },
+  {
+    id: 24,
+    question: "Explain what minting means in the context of NFTs.",
+    category: "NFTs"
+  },
+  {
+    id: 25,
+    question: "What is a mempool?",
+    category: "Fundamentals"
   }
 ];
 
@@ -162,4 +262,5 @@ export default function InterviewerPage() {
     </div>
   );
 }
+
 
